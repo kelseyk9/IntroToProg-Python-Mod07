@@ -17,7 +17,7 @@
 
 ### The read_data_from_file function reads first calls to open the file on line 34 as identified by “rb” which means read binary. Line 35 then identifies the variable of list_of_data which calls for the objFile (serialized) to become de-serialized per the callout of “pickle.load”. The function then returns the de-serialized data (which is readable by the user). 
 
-%%% PHOTO HERE 1 %%%
+![Figure 1](fig_1.png "Result of XYZ")
 
 ### The next part of the code is the presentation section, where the user is prompted to enter a student’s name and GPA, which both become part of a list. 
 
