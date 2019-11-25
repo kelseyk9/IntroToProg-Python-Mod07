@@ -10,7 +10,8 @@
 ### The very first part of the code “import pickle” is to identify that the code will be called out in the code to serialize and de-serialize an object in the python structure. 
 
 ### The next section identifies what each variable’s meaning (ex. text file, string, etc.). 
-Next, I have defined two functions, one of which will save the serialized data input by the user into a text file and the other to read the de-serialized data from the text file back to the user. 
+
+### Next, I have defined two functions, one of which will save the serialized data input by the user into a text file and the other to read the de-serialized data from the text file back to the user. 
 
 ### The save_data_to_file function calls on the text file that is identified in the variables and the list of data that will be input by the user. The first action on line 23 is for the objFile to open in “wb” mode (write binary). On line 24, “pickle.dump” allows for the list of data to be serialized into the objFile. To follow, line 25 closes the text file. 
 
@@ -18,9 +19,11 @@ Next, I have defined two functions, one of which will save the serialized data i
 
 %%% PHOTO HERE 1 %%%
 
-	The next part of the code is the presentation section, where the user is prompted to enter a student’s name and GPA, which both become part of a list. 
-	Next, the save_data_to_file function is called to serialize and save the data that was input by the user to the text file. 
-	Lastly, the code prints the de-serialized data from the text file based on the read_data_from_file function. 
+### The next part of the code is the presentation section, where the user is prompted to enter a student’s name and GPA, which both become part of a list. 
+
+### Next, the save_data_to_file function is called to serialize and save the data that was input by the user to the text file. 
+
+### Lastly, the code prints the de-serialized data from the text file based on the read_data_from_file function. 
 
 
 ## Command Results – Pickling 
@@ -38,8 +41,9 @@ Next, I have defined two functions, one of which will save the serialized data i
 
 ## Methodology – Error Handling 
 
-### 	Figure 5 displays code prompts the user to input the amount of remaining days in the year until Christmas, and calculates how many weeks remain until Christmas. If done successfully, the result that is printed to the user will be the amount of weeks left until Christmas with 2 decimal places. 
-	The error handling message created comes up when the user enters a string of data, rather than an integer. In order to figure out what to call the error, I first had to test out the code by entering a string of data into the prompt, which then prompted me with an error titled “ValueError”. Based on the callout, I used the ValueError as a callout, and when the ValueError in the code occurs, the response in the command window will alert the user that the program will only work if an integer is entered. 
+### 		Figure 5 displays code prompts the user to input the amount of remaining days in the year until Christmas, and calculates how many weeks remain until Christmas. If done successfully, the result that is printed to the user will be the amount of weeks left until Christmas with 2 decimal places. 
+	
+### The error handling message created comes up when the user enters a string of data, rather than an integer. In order to figure out what to call the error, I first had to test out the code by entering a string of data into the prompt, which then prompted me with an error titled “ValueError”. Based on the callout, I used the ValueError as a callout, and when the ValueError in the code occurs, the response in the command window will alert the user that the program will only work if an integer is entered. 
 
 
 %%% PHOTO HERE 5 %%%
