@@ -5,11 +5,16 @@
 ### This paper explains the logic behind how I developed the exception handling and pickling code. The goal and purpose of the assignment was to research error handling and pickling, then writing code and an explanation to display my understanding of the lesson. I created two separate bits of code: one that applies pickling to record a student’s name and GPA and another that exercises error handling. 
 
 ## Methodology - Pickling
-### Figure 1 contains the code that demonstrates my understanding of pickling. For this exercise, I collect a student’s name and GPA. The very first part of the code “import pickle” is to identify that the code will be called out in the code to serialize and de-serialize an object in the python structure. 
-The next section identifies what each variable’s meaning (ex. text file, string, etc.). 
+### Figure 1 contains the code that demonstrates my understanding of pickling. For this exercise, I collect a student’s name and GPA. 
+
+### The very first part of the code “import pickle” is to identify that the code will be called out in the code to serialize and de-serialize an object in the python structure. 
+
+### The next section identifies what each variable’s meaning (ex. text file, string, etc.). 
 Next, I have defined two functions, one of which will save the serialized data input by the user into a text file and the other to read the de-serialized data from the text file back to the user. 
-The save_data_to_file function calls on the text file that is identified in the variables and the list of data that will be input by the user. The first action on line 23 is for the objFile to open in “wb” mode (write binary). On line 24, “pickle.dump” allows for the list of data to be serialized into the objFile. To follow, line 25 closes the text file. 
-The read_data_from_file function reads first calls to open the file on line 34 as identified by “rb” which means read binary. Line 35 then identifies the variable of list_of_data which calls for the objFile (serialized) to become de-serialized per the callout of “pickle.load”. The function then returns the de-serialized data (which is readable by the user). 
+
+### The save_data_to_file function calls on the text file that is identified in the variables and the list of data that will be input by the user. The first action on line 23 is for the objFile to open in “wb” mode (write binary). On line 24, “pickle.dump” allows for the list of data to be serialized into the objFile. To follow, line 25 closes the text file. 
+
+### The read_data_from_file function reads first calls to open the file on line 34 as identified by “rb” which means read binary. Line 35 then identifies the variable of list_of_data which calls for the objFile (serialized) to become de-serialized per the callout of “pickle.load”. The function then returns the de-serialized data (which is readable by the user). 
 
 %%% PHOTO HERE 1 %%%
 
