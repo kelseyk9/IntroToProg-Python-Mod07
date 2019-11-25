@@ -17,7 +17,8 @@
 
 ### The read_data_from_file function reads first calls to open the file on line 34 as identified by “rb” which means read binary. Line 35 then identifies the variable of list_of_data which calls for the objFile (serialized) to become de-serialized per the callout of “pickle.load”. The function then returns the de-serialized data (which is readable by the user). 
 
-![Figure 1](fig_1.png "Result of XYZ")
+![Figure 1](fig_1.png "Figure 1 - Pickling Code")
+##### Figure 1 - Pickling Code
 
 ### The next part of the code is the presentation section, where the user is prompted to enter a student’s name and GPA, which both become part of a list. 
 
@@ -25,35 +26,36 @@
 
 ### Lastly, the code prints the de-serialized data from the text file based on the read_data_from_file function. 
 
-
 ## Command Results – Pickling 
 ### Figure 2 shows the working code in the command window view. As seen, the code successfully records the data and reads the de-serialized data back to the user as expected. 
 
-%%% PHOTO HERE 2 %%%
+![Figure 2](fig_2.png "Figure 2 – Pickling Command Window Result")
+##### Figure 2 – Pickling Command Window Result
 
 ### Figure 3 is a screen shot of the assignment 7 folder structure to prove that the AppData.dat text file was created in the same folder as the code.  
 
-%%% PHOTO HERE 3 %%%
+![Figure 3](fig_3.png "Figure 3: Proof of the AppData.dat location")
+##### Figure 3 - Proof of the AppData.dat location
 
 ### Figure 4 shows the data stored in the AppData.dat file in the pickled, serialized mode, which is made of random characters. 
 
-%%% PHOTO HERE 4 %%%
+![Figure 4](fig_4.png "Figure 4: AppData.dat serialized data")
+##### Figure 4 - AppData.dat serialized data
 
 ## Methodology – Error Handling 
 
-### 		Figure 5 displays code prompts the user to input the amount of remaining days in the year until Christmas, and calculates how many weeks remain until Christmas. If done successfully, the result that is printed to the user will be the amount of weeks left until Christmas with 2 decimal places. 
+### Figure 5 displays code prompts the user to input the amount of remaining days in the year until Christmas, and calculates how many weeks remain until Christmas. If done successfully, the result that is printed to the user will be the amount of weeks left until Christmas with 2 decimal places. 
 	
 ### The error handling message created comes up when the user enters a string of data, rather than an integer. In order to figure out what to call the error, I first had to test out the code by entering a string of data into the prompt, which then prompted me with an error titled “ValueError”. Based on the callout, I used the ValueError as a callout, and when the ValueError in the code occurs, the response in the command window will alert the user that the program will only work if an integer is entered. 
 
-
-%%% PHOTO HERE 5 %%%
-
-
-
+![Figure 5](fig_5.png "Figure 5 – Figure 5 – Error Handling Code")
+##### Figure 5 – Error Handling Code
 
 ## Command Results – Error Handling 
 ### Figure 6 is the command window that prompts the user to insert how many days are left until Christmas. The program then prints the amount of weeks left until Christmas with 2 decimals places. 
-%%% PHOTO HERE 6 %%% 
+
+![Figure 6](fig_6.png "Figure 6 – Error Handling Command Window")
+##### Figure 6 – Error Handling Command Window 
 
 ## Summary
 ### In Conclusions, I learned how to research different python functions, then was able to create practical code that displayed my understanding of both pickling and error handling. 
